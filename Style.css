@@ -14,13 +14,13 @@
 }
 
 :root{
-    --bg-color: #181A20;
-    --second-bg-color: #23262F;
-    --text-color: #F4F4F4;
-    --muted-text-color: #B0B3B8;
-    --main-color: #00FFC6;
-    --card-bg: #23262F;
-    --border-color: #262A34;
+    --bg-color: #0F1419;
+    --second-bg-color: #1A1F2E;
+    --text-color: #FFFFFF;
+    --muted-text-color: #E0E0E0;
+    --main-color: #4ECDC4;
+    --card-bg: #1A1F2E;
+    --border-color: #2A2F3E;
 }
 
 html{
@@ -71,7 +71,7 @@ section{
 }
 
 span{
-    color: var(--main-color);
+    color: #4ECDC4;
 }
 
 .navbar a{
@@ -132,12 +132,12 @@ span{
     margin: 3rem 1.5rem 3rem 0;
     background: transparent;
     color: white;
-    border: 2px solid rgba(138, 238, 24, 0.88);
+    border: 2px solid #4ECDC4;
     transition: 0.3s;
 }
 
 .social-media a:hover{
-    background: var(--main-color);
+    background: #4ECDC4;
     color: var(--second-bg-color);
 }
 
@@ -175,7 +175,7 @@ span{
 }
 
 .button{
-    background-color: rgba(138, 238, 24, 0.88);
+    background-color: #4ECDC4;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -187,7 +187,8 @@ span{
 
 .button:hover{
     background-color: transparent;
-    border: 2px solid rgba(138, 238, 24, 0.88);
+    border: 2px solid #4ECDC4;
+    color: #4ECDC4;
     cursor: pointer;
 }
 
@@ -480,6 +481,9 @@ footer ul li a:hover{
 .skills h2{
     text-align: center;
     margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skills-box .skills-content{
@@ -804,7 +808,7 @@ section {
     color: var(--main-color);
     margin-bottom: 1.2rem;
     letter-spacing: 1px;
-    text-align: left;
+    text-align: center;
     text-shadow: 0 2px 8px rgba(0,255,198,0.10);
 }
 .skills-grid {
@@ -1064,9 +1068,9 @@ section {
     margin-bottom: 0.1rem;
 }
 .highlight {
-    color: #A259F7;
+    color: #FF6B6B;
     font-weight: 700;
-    background: rgba(162,89,247,0.08);
+    background: rgba(255,107,107,0.15);
     border-radius: 0.4em;
     padding: 0 0.3em;
 }
@@ -1097,8 +1101,8 @@ section {
   margin: 1.5rem 0 1.5rem 0;
 }
 .fact-badge {
-  background: rgba(0,255,198,0.10);
-  color: var(--main-color);
+  background: rgba(78,205,196,0.20);
+  color: #4ECDC4;
   border-radius: 2rem;
   padding: 0.5em 1.2em;
   font-weight: 600;
@@ -1106,12 +1110,12 @@ section {
   align-items: center;
   gap: 0.5em;
   font-size: 1.1em;
-  box-shadow: 0 2px 8px 0 rgba(0,255,198,0.08);
+  box-shadow: 0 2px 8px 0 rgba(78,205,196,0.15);
 }
 .home-content .highlight {
-  color: #A259F7;
+  color: #FF6B6B;
   font-weight: 700;
-  background: rgba(162,89,247,0.08);
+  background: rgba(255,107,107,0.15);
   border-radius: 0.4em;
   padding: 0 0.3em;
 }
@@ -1129,19 +1133,19 @@ section {
 }
 
 .home-content span {
-  color: #A259F7;
-  background: rgba(0,255,198,0.10);
+  color: #FF6B6B;
+  background: rgba(78,205,196,0.20);
   padding: 0 0.3em;
   border-radius: 0.4em;
   font-weight: 700;
 }
 
 .home-content h3 span {
-  color: #fff;
-  background: #A259F7;
+  color: #FFFFFF;
+  background: #2A2F3E;
   padding: 0 0.4em;
   border-radius: 0.4em;
   font-weight: 700;
-  box-shadow: 0 2px 8px 0 rgba(162,89,247,0.10);
+  box-shadow: 0 2px 8px 0 rgba(42,47,62,0.3);
 }
 
